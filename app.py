@@ -1,16 +1,9 @@
-# from flask import Flask
-#
-# app = Flask(__name__)
-#
-# @app.route('/')
-# def hello():
-#     return 'Welcome to My Watchlist!'
 from flask import Flask,url_for,render_template
 from markupsafe import escape
 
 app = Flask(__name__)
 
-name = 'Grey Li'
+name = 'sangnigege'
 movies = [
     {'title': 'My Neighbor Totoro', 'year': '1988'},
     {'title': 'Dead Poets Society', 'year': '1989'},
