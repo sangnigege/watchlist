@@ -1,7 +1,6 @@
 import os
 import sys
 import click
-
 from flask import Flask, url_for, render_template, request, redirect, flash
 from markupsafe import escape
 from flask_sqlalchemy import SQLAlchemy
